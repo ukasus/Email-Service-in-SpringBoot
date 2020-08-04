@@ -6,6 +6,14 @@ public class Details {
 	public String phone;
 	public String size;
 	public String type;
+	public int cake;
+
+	public int getCake() {
+		return cake;
+	}
+	public void setCake(int cake) {
+		this.cake = cake;
+	}
 	public String getName() {
 		return name;
 	}

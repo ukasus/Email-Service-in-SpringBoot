@@ -24,7 +24,7 @@ public class SendEmails {
 	  
 	    public void SendEmail(Details details) throws UnsupportedEncodingException { 
 	    	String message="Cake Orderd by: "+details.getName()+"\nMobileNumber: "+details.getPhone()+"\nCake Type: "+details.getType()+"\nCake Size: "+
-	    details.getSize();
+	    details.getSize()+"\nCake Id: "+details.getCake();
 	        
 	        final Email email = DefaultEmail.builder() 
 	            .from(new InternetAddress(fromEmail, "HareKrishnaConfectionary"))
