@@ -7,6 +7,14 @@ public class Details {
 	public String size;
 	public String type;
 	public int cake;
+	public String date;
+	public String getDate() {
+		return date;
+	}
+	public void setDate(String date) {
+		this.date = date;
+	}
+	
 
 	public int getCake() {
 		return cake;
